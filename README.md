@@ -1,2 +1,3 @@
 # CLTokenInputView
-Swift version of CLTokenInputView
+Swift version of Cluster's CLTokenInputView.  This was originally written by Rizwan Sattar in Objective-C.
+
