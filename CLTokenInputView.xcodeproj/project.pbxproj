@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52F514351C469091000A3771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F514341C469091000A3771 /* AppDelegate.swift */; };
+		52F514371C469091000A3771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F514361C469091000A3771 /* ViewController.swift */; };
+		52F5143A1C469091000A3771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F514381C469091000A3771 /* Main.storyboard */; };
+		52F5143C1C469091000A3771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F5143B1C469091000A3771 /* Assets.xcassets */; };
+		52F5143F1C469091000A3771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F5143D1C469091000A3771 /* LaunchScreen.storyboard */; };
+		52F514471C469212000A3771 /* CLToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F514461C469212000A3771 /* CLToken.swift */; };
+		52F514491C4694C1000A3771 /* CLTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F514481C4694C1000A3771 /* CLTokenView.swift */; };
+		52F5144B1C46D381000A3771 /* CLBackspaceDetectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5144A1C46D381000A3771 /* CLBackspaceDetectingTextField.swift */; };
+		52F5144D1C46D485000A3771 /* CLTokenInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5144C1C46D485000A3771 /* CLTokenInputView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52F514311C469091000A3771 /* CLTokenInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLTokenInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F514341C469091000A3771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52F514361C469091000A3771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52F514391C469091000A3771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52F5143B1C469091000A3771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52F5143E1C469091000A3771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52F514401C469091000A3771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F514461C469212000A3771 /* CLToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLToken.swift; sourceTree = "<group>"; };
+		52F514481C4694C1000A3771 /* CLTokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTokenView.swift; sourceTree = "<group>"; };
+		52F5144A1C46D381000A3771 /* CLBackspaceDetectingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLBackspaceDetectingTextField.swift; sourceTree = "<group>"; };
+		52F5144C1C46D485000A3771 /* CLTokenInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLTokenInputView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F5142E1C469091000A3771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F514281C469091000A3771 = {
+			isa = PBXGroup;
+			children = (
+				52F514331C469091000A3771 /* CLTokenInputView */,
+				52F514321C469091000A3771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F514321C469091000A3771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F514311C469091000A3771 /* CLTokenInputView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F514331C469091000A3771 /* CLTokenInputView */ = {
+			isa = PBXGroup;
+			children = (
+				52F514341C469091000A3771 /* AppDelegate.swift */,
+				52F514361C469091000A3771 /* ViewController.swift */,
+				52F514381C469091000A3771 /* Main.storyboard */,
+				52F5143B1C469091000A3771 /* Assets.xcassets */,
+				52F5143D1C469091000A3771 /* LaunchScreen.storyboard */,
+				52F514401C469091000A3771 /* Info.plist */,
+				52F514461C469212000A3771 /* CLToken.swift */,
+				52F5144C1C46D485000A3771 /* CLTokenInputView.swift */,
+				52F514481C4694C1000A3771 /* CLTokenView.swift */,
+				52F5144A1C46D381000A3771 /* CLBackspaceDetectingTextField.swift */,
+			);
+			name = CLTokenInputView;
+			path = CLTokenInputView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F514301C469091000A3771 /* CLTokenInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F514431C469091000A3771 /* Build configuration list for PBXNativeTarget "CLTokenInputView" */;
+			buildPhases = (
+				52F5142D1C469091000A3771 /* Sources */,
+				52F5142E1C469091000A3771 /* Frameworks */,
+				52F5142F1C469091000A3771 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLTokenInputView;
+			productName = CLTokenInputView;
+			productReference = 52F514311C469091000A3771 /* CLTokenInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F514291C469091000A3771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					52F514301C469091000A3771 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 52F5142C1C469091000A3771 /* Build configuration list for PBXProject "CLTokenInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F514281C469091000A3771;
+			productRefGroup = 52F514321C469091000A3771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F514301C469091000A3771 /* CLTokenInputView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F5142F1C469091000A3771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F5143F1C469091000A3771 /* LaunchScreen.storyboard in Resources */,
+				52F5143C1C469091000A3771 /* Assets.xcassets in Resources */,
+				52F5143A1C469091000A3771 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F5142D1C469091000A3771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F5144B1C46D381000A3771 /* CLBackspaceDetectingTextField.swift in Sources */,
+				52F514491C4694C1000A3771 /* CLTokenView.swift in Sources */,
+				52F514471C469212000A3771 /* CLToken.swift in Sources */,
+				52F514371C469091000A3771 /* ViewController.swift in Sources */,
+				52F514351C469091000A3771 /* AppDelegate.swift in Sources */,
+				52F5144D1C46D485000A3771 /* CLTokenInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52F514381C469091000A3771 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F514391C469091000A3771 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52F5143D1C469091000A3771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F5143E1C469091000A3771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F514411C469091000A3771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F514421C469091000A3771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F514441C469091000A3771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLTokenInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CLTokenInputView;
+				PRODUCT_NAME = CLTokenInputView;
+			};
+			name = Debug;
+		};
+		52F514451C469091000A3771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CLTokenInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.CLTokenInputView;
+				PRODUCT_NAME = CLTokenInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F5142C1C469091000A3771 /* Build configuration list for PBXProject "CLTokenInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F514411C469091000A3771 /* Debug */,
+				52F514421C469091000A3771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F514431C469091000A3771 /* Build configuration list for PBXNativeTarget "CLTokenInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F514441C469091000A3771 /* Debug */,
+				52F514451C469091000A3771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F514291C469091000A3771 /* Project object */;
+}
