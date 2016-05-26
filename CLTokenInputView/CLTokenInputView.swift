@@ -139,7 +139,7 @@ class CLTokenInputView: UIView, CLBackspaceDetectingTextFieldDelegate, CLTokenVi
         self.textField.delegate = self
         //self.additionalTextFieldYOffset = 0.0
         self.additionalTextFieldYOffset = 1.5
-        self.textField.addTarget(self, action: Selector("onTextFieldDidChange:"), forControlEvents: .EditingChanged)
+        self.textField.addTarget(self, action: #selector(CLTokenInputView.onTextFieldDidChange(_:)), forControlEvents: .EditingChanged)
         self.addSubview(self.textField)
         
         self.fieldLabel = UILabel(frame: CGRectZero)

@@ -73,7 +73,7 @@ class CLTokenView: UIView, UIKeyInput {
         self.hideUnselectedComma = false
         self.updateLabelAttributedText()
         self.selectedLabel.text = token.displayText
-        let tapRecognizer:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("handleTapGestureRecognizer:"))
+        let tapRecognizer:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(CLTokenView.handleTapGestureRecognizer(_:)))
         self.addGestureRecognizer(tapRecognizer)
         self.setNeedsLayout()
     }

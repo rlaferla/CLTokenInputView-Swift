@@ -13,19 +13,25 @@ protocol CLBackspaceDetectingTextFieldDelegate: UITextFieldDelegate {
     func textFieldDidDeleteBackwards(textField:UITextField)
 }
 
-class CLBackspaceDetectingTextField: UITextField, CLBackspaceDetectingTextFieldDelegate {
+class CLBackspaceDetectingTextField: UITextField {
     
-    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        if (range.length == 1 && string.isEmpty){
-            //print("Used Backspace")
+    var myDelegate: CLBackspaceDetectingTextFieldDelegate? {
+        get { return self.delegate as? CLBackspaceDetectingTextFieldDelegate }
+        set { self.delegate = newValue }
+    }
+    
+    override func deleteBackward() {
+        
+        if (self.text?.isEmpty ?? false){
             self.textFieldDidDeleteBackwards(self)
         }
-        return true
+        super.deleteBackward()
     }
     
     func textFieldDidDeleteBackwards(textField:UITextField) {
         
+        myDelegate?.textFieldDidDeleteBackwards(textField)
+        
     }
-
     
 }

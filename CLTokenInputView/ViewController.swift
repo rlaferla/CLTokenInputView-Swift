@@ -32,7 +32,7 @@ class ViewController: UIViewController, CLTokenInputViewDelegate, UITableViewDat
         
         let infoButton:UIButton = UIButton(type: .InfoDark)
         infoButton.translatesAutoresizingMaskIntoConstraints = false
-        infoButton.addTarget(self, action: Selector("onFieldInfoButtonTapped:"), forControlEvents: .TouchUpInside)
+        infoButton.addTarget(self, action: #selector(ViewController.onFieldInfoButtonTapped(_:)), forControlEvents: .TouchUpInside)
         self.tokenInputView.fieldName = NSLocalizedString("To:", comment: "")
         self.tokenInputView.fieldView = infoButton;
         self.tokenInputView.placeholderText = "Enter a name";
@@ -182,7 +182,7 @@ class ViewController: UIViewController, CLTokenInputViewDelegate, UITableViewDat
     
     func contactAddButton() -> UIButton {
         let contactAddButton:UIButton = UIButton(type: .ContactAdd)
-        contactAddButton.addTarget(self, action: Selector("onAccessoryContactAddButtonTapped:"), forControlEvents: .TouchUpInside)
+        contactAddButton.addTarget(self, action: #selector(ViewController.onAccessoryContactAddButtonTapped(_:)), forControlEvents: .TouchUpInside)
         return contactAddButton
     }
     
